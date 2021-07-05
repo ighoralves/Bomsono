@@ -56,6 +56,10 @@ table {
   border-spacing: 0;
 }
 
+body {
+  font-family: "Poppins" sans-serif;
+}
+
 ul {
   list-style: none;
 }
@@ -65,46 +69,91 @@ a {
   font-style: none;
 }
 
-body {
-  font-family: "Poppins" sans-serif;
-}
-
 #Header {
   width: 100%;
-  border-bottom: 1px solid #e4e4e4;
-  position: fixed;
   height: 4rem;
+  border-bottom: 1px solid #e4e4e4;
 }
 #Header img {
   width: 1.5rem;
-  margin-top: 1.5rem;
-  margin-left: 2.5rem;
+}
+#Header .Logo {
+  padding: 1rem;
+  position: relative;
 }
 #Header .Menu {
   font-size: 1.2rem;
   font-weight: 500;
 }
-#Header nav ul {
+#Header .Menu ul {
   position: absolute;
   display: flex;
-  gap: 3rem;
-  margin-left: 8rem;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: -2.5rem;
+  margin-left: 6.5rem;
 }
-#Header nav a {
+#Header nav ul li a {
   color: #000;
 }
 #Header button {
-  background: rgba(0, 100, 240, 0.3);
+  background: #1B9CFC;
   border: 0;
   border-radius: 0.6rem;
   padding: 0.2rem;
   font-weight: 500;
   font-size: 1rem;
 }
-#Header .Button {
-  text-align: right;
-  margin-top: -1.2rem;
-  margin-right: 2.5rem;
+
+#Hero {
+  font: 500 "Poppins" sans-serif;
+  background: #CAD3C8;
+}
+#Hero .Title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 4rem;
+}
+#Hero img {
+  max-width: 100%;
+}
+#Hero .Bed {
+  position: absolute;
+  margin: 12rem 3rem;
+}
+#Hero .photo {
+  margin-bottom: 2rem;
+}
+#Hero .Photo1 {
+  margin: 11rem 1rem;
+}
+#Hero .Photo2 {
+  margin: -9rem 3rem;
+}
+#Hero .Photo3 {
+  padding-top: 1rem;
+}
+#Hero .Photo4 {
+  max-width: 130%;
+}
+#Hero .Subtitle {
+  text-align: center;
+  font-size: 1.5rem;
+}
+#Hero .Button {
+  padding: 1rem 1rem;
+  background: #1B9CFC;
+  margin-top: 4rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  border-radius: 0.7rem;
+}
+#Hero .Button a {
+  font-size: 1.3rem;
+  color: white;
+  padding: 1rem;
+  align-content: center;
 }
 
 /*# sourceMappingURL=index.css.map */

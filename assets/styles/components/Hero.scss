@@ -1,0 +1,62 @@
+#Hero {
+  font: 500 'Poppins' sans-serif;
+  background: #CAD3C8;
+
+  .Title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4rem;
+  }
+
+  img {
+    max-width: 100%;
+  }
+  
+  .Bed {
+    position: absolute;
+    margin: 12rem 3rem;
+  }
+
+  .photo {
+    margin-bottom: 2rem;
+  }
+
+  .Photo1 {
+    margin: 11rem 1rem;
+  }
+
+  .Photo2 {
+    margin: -9rem 3rem; 
+  }
+
+  .Photo3 {
+    padding-top: 1rem;
+  }
+
+  .Photo4 {
+    max-width: 130%;
+  }
+
+  .Subtitle {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .Button {
+    padding: 1rem 1rem;
+    background: #1B9CFC;
+    margin-top: 4rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    border-radius: 0.700rem;
+  }
+
+  .Button a {
+    font-size: 1.3rem;
+    color: white;
+    padding: 1rem;
+    align-content: center;
+  }
+
+}

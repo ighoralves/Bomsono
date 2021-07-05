@@ -1,48 +1,42 @@
-body {
-  font-family: 'Poppins' sans-serif;
-}
-
 #Header {
   width: 100%;
-  border-bottom: 1px solid #e4e4e4;
-  position: fixed;
   height: 4rem;
+  border-bottom: 1px solid #e4e4e4;
 
   img {
     width: 1.5rem;
-    margin-top: 1.5rem;
-    margin-left: 2.5rem;
   } 
+
+  .Logo {
+   padding: 1rem;
+   position: relative;
+  }
   
   .Menu {
     font-size: 1.2rem;
     font-weight: 500;
   }
 
-  nav ul {
+  .Menu ul {
     position: absolute;
     display: flex;
-    gap: 3rem;
-    margin-left: 8rem;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: -2.5rem;
+    margin-left: 6.5rem ;
   }
 
-  nav a {
+  nav ul li a{
     color: #000;
   }
 
+
   button {
-    background: rgb(0, 100, 240, 0.3);
+    background: #1B9CFC;
     border: 0;
     border-radius: 0.600rem;
     padding: 0.20rem ;
     font-weight: 500;
     font-size: 1rem;
   }
-
-  .Button {
-    text-align: right;
-    margin-top: -1.2rem;
-    margin-right: 2.5rem;
-  }
-  
 }
